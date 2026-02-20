@@ -1,0 +1,85 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-user-registration-system-that-allows-users-to-sign-up-with-a-username",
+      "featureTitle": "Create a user registration system that allows users to sign up with a username",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/RegistrationForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-dynamic-2d-canvas-visualization-where-the-snake-continuously-moves-across-the-screen-in-an-animated-pattern",
+      "featureTitle": "Create a dynamic 2D canvas visualization where the snake continuously moves across the screen in an animated pattern",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/SnakeCanvas.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-real-time-visual-updates-that-show-the-snake-growing-longer-as-new-users-register-with-smooth-segment-addition-animations",
+      "featureTitle": "Implement real-time visual updates that show the snake growing longer as new users register, with smooth segment addition animations",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/SnakeCanvas.tsx",
+        "frontend/src/components/UserCountDisplay.tsx",
+        "frontend/src/hooks/useSnakeData.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-design-a-cohesive-visual-theme-with-vibrant-playful-colors-and-smooth-animations-that-emphasize-the-dynamic-growing-nature-of-the-snake-visualization",
+      "featureTitle": "Design a cohesive visual theme with vibrant, playful colors and smooth animations that emphasize the dynamic, growing nature of the snake visualization",
+      "files": [
+        "frontend/src/components/RegistrationForm.tsx",
+        "frontend/src/components/SnakeCanvas.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component with header, snake canvas visualization, registration form sidebar, and footer with proper layout and branding.",
+  "frontend/src/components/RegistrationForm.tsx": "User registration form component with username input, validation, loading states, success/error feedback, and integration with backend mutation.",
+  "frontend/src/components/SnakeCanvas.tsx": "Canvas-based snake visualization component with smooth serpentine animation, gradient rendering, responsive sizing, and real-time segment updates with proper useRef initialization for React 19.",
+  "frontend/src/components/UserCountDisplay.tsx": "Compact display component showing total registered users count with loading state and icon.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend operations including user registration mutation and queries for snake segments and user count with automatic polling.",
+  "frontend/src/hooks/useSnakeData.ts": "Custom hook that combines snake segments and user count queries, converting BigInt to Number for easier consumption.",
+  "frontend/src/index.css": "Global styles with vibrant emerald/teal OKLCH color system for light and dark modes, custom typography, and smooth transitions.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended emerald/teal color palette, custom border radii, shadows, and animation utilities for the playful snake theme.",
+  "frontend/src/components/ui/button.tsx": "Shadcn button component with variants for consistent styling across the application.",
+  "frontend/src/components/ui/input.tsx": "Shadcn input component for form fields with consistent styling.",
+  "frontend/src/components/ui/label.tsx": "Shadcn label component for form field labels.",
+  "frontend/src/lib/utils.ts": "Utility functions for className merging using clsx and tailwind-merge."
+}

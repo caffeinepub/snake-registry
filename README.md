@@ -1,2 +1,3 @@
-# snake-registry
-Exported from Caffeine project: Snake Registry
+## Snake Registry
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

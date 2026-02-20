@@ -1,0 +1,115 @@
+{
+  "kind": "build_request",
+  "title": "Create dynamic snake visualization that grows with user registrations",
+  "projectName": "Snake Registry",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a user registration system that allows users to sign up with a username",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "un utilisateur s'inscrit"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Users can register with a unique username",
+        "Registration form is accessible from the main interface",
+        "Backend stores registered users persistently",
+        "Registration triggers snake growth event"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement backend logic to track the snake's segments, where each new user registration adds one segment to the snake",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "crée un snake au fur et à mesure qu'un utilisateur s'inscrit"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Snake starts with an initial length",
+        "Each user registration increments the snake length by one segment",
+        "Snake segment data is persisted across canister upgrades",
+        "Backend provides query method to retrieve current snake length and user count"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a dynamic 2D canvas visualization where the snake continuously moves across the screen in an animated pattern",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "on verra le serpent se promener sur un lecteur dynamique"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Snake renders on a 2D canvas or similar visualization surface",
+        "Snake moves continuously in a smooth, animated pattern",
+        "Movement is automatic and does not require user input",
+        "Canvas is responsive and adapts to different screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement real-time visual updates that show the snake growing longer as new users register, with smooth segment addition animations",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "on le verra evoluer"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Frontend polls or queries backend for snake length updates",
+        "New segments are added to the snake with smooth animation",
+        "Visual feedback clearly shows the snake's growth",
+        "Display shows current number of registered users"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Design a cohesive visual theme with vibrant, playful colors and smooth animations that emphasize the dynamic, growing nature of the snake visualization",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual design uses a consistent color palette throughout the application",
+        "Snake has a distinct, appealing visual style",
+        "Animations are smooth and enhance the user experience",
+        "Typography and layout support the playful, dynamic theme"
+      ]
+    }
+  ],
+  "constraints": [
+    "Snake movement must be continuous and automatic",
+    "Each user registration must add exactly one segment to the snake",
+    "User registrations must be persistent across canister upgrades"
+  ],
+  "nonGoals": [
+    "User-controlled snake gameplay or direction control",
+    "Collision detection or game-over mechanics",
+    "Multiplayer snake racing or competition features",
+    "Snake eating food items for growth"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

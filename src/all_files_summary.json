@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Motoko backend actor managing user registration with Principal-based authentication and snake segment tracking; provides queries for snake segments and user count.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: user registration, 2D canvas snake visualization, real-time growth updates, and cohesive visual theming with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files including React components, hooks, styling, and configuration for the snake visualization application.",
+  "frontend/index.css": "Tailwind CSS base styles with OKLCH color system defining light and dark mode CSS variables for emerald/teal theme with custom design tokens.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx for the Snake Registry application.",
+  "frontend/src/App.tsx": "Main React application component with header, snake canvas visualization, registration form sidebar, user count display, and responsive grid layout with gradient backgrounds.",
+  "frontend/src/components/RegistrationForm.tsx": "Registration form component with username input, submission handling, loading/success/error states, and integration with backend mutation hook.",
+  "frontend/src/components/SnakeCanvas.tsx": "Canvas component rendering animated snake with sine wave motion, gradient segments, grid background, responsive sizing, and smooth animations based on segment data.",
+  "frontend/src/components/UserCountDisplay.tsx": "Compact component displaying total registered users count with loading spinner and gradient background styling.",
+  "frontend/src/hooks/useActor.ts": "React Query hook managing backend actor creation with Internet Identity authentication, automatic query invalidation on identity changes, and anonymous fallback.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React hook and provider for Internet Identity authentication, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for user registration mutation and queries to fetch snake segments and user count with 3-second polling intervals.",
+  "frontend/src/hooks/useSnakeData.ts": "Composite hook that combines snake segments and user count queries, converting BigInt to Number and aggregating loading states.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom design tokens for light/dark themes using OKLCH color space, including typography and utility classes.",
+  "frontend/src/lib/utils.ts": "Utility function that merges Tailwind CSS classes using clsx and tailwind-merge for conditional styling.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query, Internet Identity provider, and renders the root App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending default theme with custom colors (OKLCH), border radius, shadows, and animations for accordion, fade-in, and slide-in effects.",
+  "project_state.json": "Project metadata defining a snake game where the snake grows as users register, tracking existing features (registration, canvas visualization, real-time updates) and pending feature requests."
+}
